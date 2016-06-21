@@ -28,4 +28,4 @@ WORKDIR /opt/kafka-websocket
 
 RUN mvn package
 
-CMD java -jar target/kafka-websocket-0.10.0-SNAPSHOT-shaded.jar
+CMD java -jar target/kafka-websocket-0.10.0-shaded.jar
