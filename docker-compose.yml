@@ -3,7 +3,7 @@ zookeeper:
   ports:
     - "2181:2181"
 kafka:
-  build: kafka-docker/
+  build: kafka/
   ports:
     - "9092:9092"
   environment:
